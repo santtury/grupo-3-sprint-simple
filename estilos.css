@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px; /*Margen interior de un contenedor*/
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: lightyellow;
+}
+
+.form-registro {
+  /*width: 400px;
+  height: 300px; */
+  margin: 20px;
+  border: 1px dashed red; /*pinta el borde del contenedor*/
+  border-radius: 20px;
+  float: left;
+  min-height: calc(
+    100vh - 100px - 30px - 40px
+  ); /*No se que es 100vh pero se les resta la altura del header, footer y margen*/
+  min-width: calc(60% - 40px);
+  /*padding: 20px;*/
+}
+
+header {
+  background: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100px; /*tamaño del contenedor (Vertical) (Altura)*/
+  width: 100%; /*tamaño del contenedor (Horizontal) (Ancho)*/
+  margin: 0px; /*margen del contenedor*/
+  /*text-align: center; /*Centra el texto de manera horizontal*/
+  line-height: 100px; /*Centra el texto de manera vertical*/
+  /*color: blue; /*Cambia el color del texto*/
+  /*border-bottom: 2px dashed black;*/
+  padding-left: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.registro {
+  background: greenyellow;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  border: 1px dashed blue;
+}
+
+.texto {
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.caja {
+  background: lightgrey;
+  height: 30px;
+  width: 50%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#btn-registrar {
+  background: greenyellow;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 40px;
+  width: 20%;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.boton {
+  background: lightyellow;
+  height: 40px;
+  margin-top: 20px;
+  border: 1px dashed blue;
+}
+
+footer {
+  background: green;
+  height: 30px;
+  width: 100%;
+  /* margin: 0px; */
+  text-align: center;
+  line-height: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
