@@ -9,7 +9,7 @@ body {
   background: lightyellow;
 }
 
-.form-registro {
+.formRegistro {
   /*width: 400px;
   height: 300px; */
   margin: 20px;
@@ -64,20 +64,17 @@ header {
 }
 
 #btn-registrar {
+  margin-top: 20px;
   background: greenyellow;
   font-family: Georgia, "Times New Roman", Times, serif;
   height: 40px;
   width: 20%;
-  line-height: 40px;
-  text-align: center;
+  /* line-height: 40px;
+  text-align: center; */
+  align-items: center;
   border-radius: 12px;
-}
-
-.boton {
-  background: lightyellow;
-  height: 40px;
-  margin-top: 20px;
-  border: 1px dashed blue;
+  margin: 0 auto;
+  display: block;
 }
 
 footer {
