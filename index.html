@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aerolinea Jay Jay</title>
-    <link href="estilos.css" rel="stylesheet">
-    <script src="./validaciones.js" type="module"></script>
+    <link href="./styles/estilos.css" rel="stylesheet">
+    <script src="./scripts/validaciones.js" type="module"></script>
 </head>
 
 <body>
@@ -40,9 +40,8 @@
 
             <label class="texto" for="contrasena">Contraseña</label><br>
             <input class="texto caja" id="contrasena" name="contrasena" type="password"
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                 title="Debe contener por lo menos  una letra mayúscula,  una minúscula,  un número  y con una longitud  mayor  o igual a 8 dígitos"
-                value="As2nAnnñ" required><br>
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" value="As2nAnnñ" required><br>
 
             <footer class="boton">
                 <button id="btn-registrar">Registrar</button>

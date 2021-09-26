@@ -38,8 +38,8 @@ function checkContrasena(valor) {
     }
 }
 
-// export { checkNumDocumento, checkCorreo, checkContrasena };
-module.exports.checkNumDocumento = checkNumDocumento;
-module.exports.checkCorreo = checkCorreo;
-module.exports.checkContrasena = checkContrasena;
+export { checkNumDocumento, checkCorreo, checkContrasena };
+// module.exports.checkNumDocumento = checkNumDocumento;
+// module.exports.checkCorreo = checkCorreo;
+// module.exports.checkContrasena = checkContrasena;
 // module.exports = { checkNumDocumento, checkCorreo, checkContrasena };
