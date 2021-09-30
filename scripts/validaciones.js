@@ -15,4 +15,3 @@ console.log(correoValido);
 var contrasena = document.getElementById("contrasena").value;
 var contrasenaValida = checkContrasena(contrasena);
 console.log(contrasenaValida);
-

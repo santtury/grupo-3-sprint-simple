@@ -1,3 +1,4 @@
+// Sprint 02
 function checkNumDocumento(valor, tipo) {
     const ptr = new RegExp('[^0-9]+');
     const numeros = /[0-9]/g;
@@ -42,4 +43,3 @@ export { checkNumDocumento, checkCorreo, checkContrasena };
 // module.exports.checkNumDocumento = checkNumDocumento;
 // module.exports.checkCorreo = checkCorreo;
 // module.exports.checkContrasena = checkContrasena;
-// module.exports = { checkNumDocumento, checkCorreo, checkContrasena };
