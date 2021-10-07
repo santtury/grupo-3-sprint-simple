@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aerolinea Jay Jay</title>
+    <title>AIRspace</title>
     <link href="./styles/estilos.css" rel="stylesheet">
     <script src="./scripts/validaciones.js" type="module"></script>
 </head>
@@ -21,19 +21,18 @@
         <form id="form-registro" action="index.html" method="POST">
             <header class="header registro">Registro</header>
 
-            <label class="texto" for="tipoDocumento">Tipo de documento</label><br>
-            <select class="texto caja" id="tipoDocumento" name="tipoDocumento">
+            <label class="texto" for="tipo-documento">Tipo de documento</label><br>
+            <select class="texto caja" id="tipo-documento" name="tipo-documento">
                 <option value="TI">Tarjeta de identidad</option>
                 <option value="CC" selected>Cédula ciudadania</option>
                 <option value="RC">Registro civil</option>
-                <option value="PA">Pasaporte</option>
-                <option value="TR">Tarjeta de residencia</option>
-                <option value="CE">Cedula extranjeria</option>
+                <option value="P">Pasaporte</option>
+                <!-- <option value="TR">Tarjeta de residencia</option> -->
+                <option value="CE">Cédula extranjeria</option>
             </select><br>
 
-            <label class="texto" for="numerodedocumento">Número de documento</label><br>
-            <input class="texto caja" id="numerodedocumento" name="numerodedocumento" type="text"
-                value="1234567890"><br>
+            <label class="texto" for="numero-documento">Número de documento</label><br>
+            <input class="texto caja" id="numero-documento" name="numero-documento" type="text" value="1234567890"><br>
 
             <label class="texto" for="correo">Correo</label><br>
             <input class="texto caja" id="correo" name="correo" type="email" value="el.zorro@gmail.edu.co"><br>
