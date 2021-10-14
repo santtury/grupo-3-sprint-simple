@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background: green;
+  background: lightseagreen;
   font-family: Georgia, "Times New Roman", Times, serif;
   height: 100px; /*tamaño del contenedor (Vertical) (Altura)*/
   width: 100%; /*tamaño del contenedor (Horizontal) (Ancho)*/
@@ -78,7 +78,7 @@ header {
 }
 
 footer {
-  background: green;
+  background: lightseagreen;
   height: 30px;
   width: 100%;
   /* margin: 0px; */

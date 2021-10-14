@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link href="./styles/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header logo">
+        <h1>AIRspace</h1>
+    </header>
+
+    <main>
+        <form id="form-login" action="login.html">
+            <label class="texto" for="correo">Correo <br>
+                <input class="texto caja" id="correo" name="correo" type="email">
+            </label> <br>
+
+            <label class="texto" for="contrasena">Contraseña <br>
+                <input class="texto caja" id="contrasena" name="contrasena" type="password">
+            </label> <br>
+
+            <label class="texto" for="captcha">¿Cuántas personas son el 60% de un grupo de 25 personas? <br>
+                <input class="texto caja" id="captcha" name="captcha" type="number" min="0" max="25">
+            </label> <br>
+
+            <button id="btn-login" name="btn-login" type="button">Login</button>
+        </form>
+    </main>
+
+    <footer>
+        <h3>Sub-Grupo 3, Baby!!!</h3>
+    </footer>
+
+    <script src="./scripts/login.js"></script>
+</body>
+
+</html>
