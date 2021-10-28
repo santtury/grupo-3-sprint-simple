@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de Sesión</title>
-    <link href="./styles/estilos.css" rel="stylesheet">
+    <link href="./styles/estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -14,8 +14,11 @@
         <h1>AIRspace</h1>
     </header>
 
+    <div class="clearfix"></div>
+
     <main>
         <form id="form-login" action="login.html">
+            <h2 class="registro">Iniciar Sesión</h2>
             <label class="texto" for="correo">Correo <br>
                 <input class="texto caja" id="correo" name="correo" type="email">
             </label> <br>
@@ -26,17 +29,20 @@
 
             <label class="texto" for="captcha">¿Cuántas personas son el 60% de un grupo de 25 personas? <br>
                 <input class="texto caja" id="captcha" name="captcha" type="number" min="0" max="25">
-            </label> <br>
+            </label> <br> <br>
 
-            <button id="btn-login" name="btn-login" type="button">Login</button>
+            <button id="btn-login" name="btn-login" type="button"
+                onclick="<script src='./scripts/validacionLogin.js'></script>">Login</button>
         </form>
     </main>
+
+    <div class="clearfix"></div>
 
     <footer>
         <h3>Sub-Grupo 3, Baby!!!</h3>
     </footer>
 
-    <script src="./scripts/login.js"></script>
+    <script src="./scripts/login.js" type="module"></script>
 </body>
 
 </html>
